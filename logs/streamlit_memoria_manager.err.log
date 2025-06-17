@@ -1,0 +1,100 @@
+2025-04-16 13:21:57.766 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-04-16 17:33:26.465 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-04-16 17:36:02.538 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-04-16 17:40:56.172 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+2025-04-16 18:03:26.718 Examining the path of torch.classes raised:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/web/bootstrap.py", line 347, in run
+    if asyncio.get_running_loop().is_running():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 217, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/streamlit/watcher/local_sources_watcher.py", line 210, in <lambda>
+    lambda m: list(m.__path__._path),
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/_classes.py", line 13, in __getattr__
+    proxy = torch._C._get_custom_class_python_wrapper(self.name, attr)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_

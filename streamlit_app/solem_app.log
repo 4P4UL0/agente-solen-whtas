@@ -1,0 +1,63 @@
+2025-04-11 12:28:39,035 - INFO - Use pytorch device_name: cpu
+2025-04-11 12:28:39,035 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 12:28:41,868 - INFO - Loading faiss with AVX2 support.
+2025-04-11 12:28:41,896 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-11 12:28:41,903 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-11 12:32:02,379 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:41:11,134 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 12:45:26,716 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-11 13:07:38,019 - INFO - Use pytorch device_name: cpu
+2025-04-11 13:07:38,020 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-11 13:08:16,049 - INFO - Loading faiss with AVX2 support.
+2025-04-11 13:08:16,110 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-11 13:08:16,121 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 13:20:42,817 - INFO - Use pytorch device_name: cpu
+2025-04-16 13:20:42,818 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 13:20:46,090 - INFO - Loading faiss with AVX2 support.
+2025-04-16 13:20:46,130 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-16 13:20:46,141 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 13:23:09,892 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-04-16 13:23:09,894 - ERROR - Erro na resposta: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-04-16 13:30:19,420 - INFO - Use pytorch device_name: cpu
+2025-04-16 13:30:19,421 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 13:30:22,392 - INFO - Loading faiss with AVX2 support.
+2025-04-16 13:30:22,416 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-16 13:30:22,422 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 13:30:36,805 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-16 13:30:36,806 - ERROR - Erro na resposta: Error code: 400 - {'error': {'message': 'The model `qwen-2.5-coder-32b` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-04-16 13:42:34,864 - INFO - Use pytorch device_name: cpu
+2025-04-16 13:42:34,865 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 13:44:02,973 - INFO - Loading faiss with AVX2 support.
+2025-04-16 13:44:03,002 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-16 13:44:03,010 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 13:44:38,983 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 13:44:57,045 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 17:38:40,833 - INFO - Use pytorch device_name: cpu
+2025-04-16 17:38:40,834 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 17:38:56,517 - INFO - Loading faiss with AVX2 support.
+2025-04-16 17:38:56,543 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-16 17:38:56,550 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 17:42:44,751 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 17:43:07,762 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 17:48:41,217 - INFO - Use pytorch device_name: cpu
+2025-04-16 17:48:41,218 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 17:50:24,183 - INFO - Loading faiss with AVX2 support.
+2025-04-16 17:50:24,215 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-16 17:50:24,225 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 17:52:14,797 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 17:52:38,944 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:02:02,826 - INFO - Use pytorch device_name: cpu
+2025-04-16 18:02:02,827 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 18:02:05,498 - INFO - Loading faiss with AVX2 support.
+2025-04-16 18:02:05,568 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-16 18:02:05,575 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-16 18:04:03,720 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:04:24,699 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:05:00,115 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:08:37,628 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:09:22,997 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:12:06,693 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:12:35,775 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:12:52,064 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:13:01,564 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-16 18:13:06,459 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

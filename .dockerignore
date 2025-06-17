@@ -1,0 +1,22 @@
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar pastas de ambiente virtual (se existir)
+venv/
+env/
+
+# Ignorar arquivos e pastas do controle de versão
+.git/
+.gitignore
+
+# Ignorar arquivos de configuração de editores
+.vscode/
+.idea/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,312 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m121[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m640[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/app/streamlit_app/[0m[1;33mmemoria_manager.py[0m:[94m12[0m in [92m<module>[0m                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m  9 [0m[94mimport[0m[90m [0m[4;96mlogging[0m                                                                 [31m [0m
+[31m [0m   [2m 10 [0m                                                                               [31m [0m
+[31m [0m   [2m 11 [0m[2m# Importa funções centralizadas do vectorstore[0m                                 [31m [0m
+[31m [0m [31m❱ [0m 12 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mvectorstore_manager[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m ([0m                                              [31m [0m
+[31m [0m   [2m 13 [0m[1;2;4m│   [0m[1;4mverificar_arquivos_memoria,[0m                                                [31m [0m
+[31m [0m   [2m 14 [0m[1;2;4m│   [0m[1;4mcriar_arquivo_pkl,[0m                                                         [31m [0m
+[31m [0m   [2m 15 [0m[1;2;4m│   [0m[1;4msalvar_memoria[0m                                                             [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'vectorstore_manager'[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m121[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m640[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/app/streamlit_app/[0m[1;33mmemoria_manager.py[0m:[94m12[0m in [92m<module>[0m                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m  9 [0m[94mimport[0m[90m [0m[4;96mlogging[0m                                                                 [31m [0m
+[31m [0m   [2m 10 [0m                                                                               [31m [0m
+[31m [0m   [2m 11 [0m[2m# Importa funções centralizadas do vectorstore[0m                                 [31m [0m
+[31m [0m [31m❱ [0m 12 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mvectorstore_manager[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m ([0m                                              [31m [0m
+[31m [0m   [2m 13 [0m[1;2;4m│   [0m[1;4mverificar_arquivos_memoria,[0m                                                [31m [0m
+[31m [0m   [2m 14 [0m[1;2;4m│   [0m[1;4mcriar_arquivo_pkl,[0m                                                         [31m [0m
+[31m [0m   [2m 15 [0m[1;2;4m│   [0m[1;4msalvar_memoria[0m                                                             [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'vectorstore_manager'[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m121[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m640[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/app/streamlit_app/[0m[1;33mmemoria_manager.py[0m:[94m12[0m in [92m<module>[0m                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m  9 [0m[94mimport[0m[90m [0m[4;96mlogging[0m                                                                 [31m [0m
+[31m [0m   [2m 10 [0m                                                                               [31m [0m
+[31m [0m   [2m 11 [0m[2m# Importa funções centralizadas do vectorstore[0m                                 [31m [0m
+[31m [0m [31m❱ [0m 12 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mvectorstore_manager[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m ([0m                                              [31m [0m
+[31m [0m   [2m 13 [0m[1;2;4m│   [0m[1;4mverificar_arquivos_memoria,[0m                                                [31m [0m
+[31m [0m   [2m 14 [0m[1;2;4m│   [0m[1;4mcriar_arquivo_pkl,[0m                                                         [31m [0m
+[31m [0m   [2m 15 [0m[1;2;4m│   [0m[1;4msalvar_memoria[0m                                                             [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'vectorstore_manager'[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m121[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m640[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/app/streamlit_app/[0m[1;33mmemoria_manager.py[0m:[94m12[0m in [92m<module>[0m                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m  9 [0m[94mimport[0m[90m [0m[4;96mlogging[0m                                                                 [31m [0m
+[31m [0m   [2m 10 [0m                                                                               [31m [0m
+[31m [0m   [2m 11 [0m[2m# Importa funções centralizadas do vectorstore[0m                                 [31m [0m
+[31m [0m [31m❱ [0m 12 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mvectorstore_manager[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m ([0m                                              [31m [0m
+[31m [0m   [2m 13 [0m[1;2;4m│   [0m[1;4mverificar_arquivos_memoria,[0m                                                [31m [0m
+[31m [0m   [2m 14 [0m[1;2;4m│   [0m[1;4mcriar_arquivo_pkl,[0m                                                         [31m [0m
+[31m [0m   [2m 15 [0m[1;2;4m│   [0m[1;4msalvar_memoria[0m                                                             [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mModuleNotFoundError: [0mNo module named [32m'vectorstore_manager'[0m
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m121[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m640[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/app/streamlit_app/[0m[1;33mmemoria_manager.py[0m:[94m157[0m in [92m<module>[0m                                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m154 [0m[2m│   [0m[94mif[0m [33m'[0m[33mlogged_in[0m[33m'[0m [95mnot[0m [95min[0m st.session_state:                                    [31m [0m
+[31m [0m   [2m155 [0m[2m│   │   [0mst.session_state.logged_in = [94mFalse[0m                                     [31m [0m
+[31m [0m   [2m156 [0m[2m│   [0m[94mif[0m st.session_state.logged_in:                                             [31m [0m
+[31m [0m [31m❱ [0m157 [2m│   │   [0m[1;4mmain()[0m                                                                 [31m [0m
+[31m [0m   [2m158 [0m[2m│   [0m[94melse[0m:                                                                      [31m [0m
+[31m [0m   [2m159 [0m[2m│   │   [0mlogin()                                                                [31m [0m
+[31m [0m   [2m160 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/app/streamlit_app/[0m[1;33mmemoria_manager.py[0m:[94m132[0m in [92mmain[0m                                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m129 [0m[2m│   │   │   │   │   │   [0mchunks.extend(doc_chunks)                              [31m [0m
+[31m [0m   [2m130 [0m[2m│   │   │   │   │   │   [0mprocessed.add(pdf)                                     [31m [0m
+[31m [0m   [2m131 [0m[2m│   │   │   │   [0m[94mif[0m chunks:                                                     [31m [0m
+[31m [0m [31m❱ [0m132 [2m│   │   │   │   │   [0membeddings = [1;4mHuggingFaceEmbeddings(model_name=[0m[1;4;33m"[0m[1;4;33mall-MiniLM-[0m [31m [0m
+[31m [0m   [2m133 [0m[2m│   │   │   │   │   [0mvectorstore = FAISS.from_documents(chunks, embeddings)     [31m [0m
+[31m [0m   [2m134 [0m[2m│   │   │   │   │   [0m[94mif[0m vt.salvar_memoria(vectorstore, processed):              [31m [0m
+[31m [0m   [2m135 [0m[2m│   │   │   │   │   │   [0mst.success([33mf[0m[33m"[0m[33m✅ [0m[33m{[0m[96mlen[0m(processed)[33m}[0m[33m documentos processado[0m [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/langchain_huggingface/embeddings/[0m[1;33mhuggingface[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m59[0m in [92m__init__[0m                                                                   [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 56 [0m[2m│   │   │   │   [0m[33m"[0m[33mPlease install it with `pip install sentence-transformers`.[0m[33m"[0m  [31m [0m
+[31m [0m   [2m 57 [0m[2m│   │   │   [0m) [94mfrom[0m[90m [0m[4;96mexc[0m                                                         [31m [0m
+[31m [0m   [2m 58 [0m[2m│   │   [0m                                                                       [31m [0m
+[31m [0m [31m❱ [0m 59 [2m│   │   [0m[96mself[0m._client = [1;4msentence_transformers.SentenceTransformer([0m              [31m [0m
+[31m [0m   [2m 60 [0m[1;2;4m│   │   │   [0m[1;4;96mself[0m[1;4m.model_name, cache_folder=[0m[1;4;96mself[0m[1;4m.cache_folder, **[0m[1;4;96mself[0m[1;4m.model_kwar[0m [31m [0m
+[31m [0m   [2m 61 [0m[1;2;4m│   │   [0m[1;4m)[0m                                                                      [31m [0m
+[31m [0m   [2m 62 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/sentence_transformers/[0m[1;33mSentenceTransformer.py[0m [31m [0m
+[31m [0m :[94m348[0m in [92m__init__[0m                                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 345 [0m[2m│   │   [0m[94mexcept[0m [96mStopIteration[0m:                                                 [31m [0m
+[31m [0m   [2m 346 [0m[2m│   │   │   [0m[94mpass[0m                                                              [31m [0m
+[31m [0m   [2m 347 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m [31m❱ [0m 348 [2m│   │   [0m[1;4;96mself[0m[1;4m.to(device)[0m                                                       [31m [0m
+[31m [0m   [2m 349 [0m[2m│   │   [0m[96mself[0m.is_hpu_graph_enabled = [94mFalse[0m                                     [31m [0m
+[31m [0m   [2m 350 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m   [2m 351 [0m[2m│   │   [0m[94mif[0m [96mself[0m.default_prompt_name [95mis[0m [95mnot[0m [94mNone[0m [95mand[0m [96mself[0m.default_prompt_name  [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m1343[0m in [92mto[0m        [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1340 [0m[2m│   │   │   │   [0m[94melse[0m:                                                         [31m [0m
+[31m [0m   [2m1341 [0m[2m│   │   │   │   │   [0m[94mraise[0m                                                     [31m [0m
+[31m [0m   [2m1342 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m [31m❱ [0m1343 [2m│   │   [0m[94mreturn[0m [1;4;96mself[0m[1;4m._apply(convert)[0m                                           [31m [0m
+[31m [0m   [2m1344 [0m[2m│   [0m                                                                          [31m [0m
+[31m [0m   [2m1345 [0m[2m│   [0m[94mdef[0m[90m [0m[92mregister_full_backward_pre_hook[0m(                                      [31m [0m
+[31m [0m   [2m1346 [0m[2m│   │   [0m[96mself[0m,                                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m903[0m in [92m_apply[0m     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 900 [0m[2m│   [0m[94mdef[0m[90m [0m[92m_apply[0m([96mself[0m, fn, recurse=[94mTrue[0m):                                       [31m [0m
+[31m [0m   [2m 901 [0m[2m│   │   [0m[94mif[0m recurse:                                                           [31m [0m
+[31m [0m   [2m 902 [0m[2m│   │   │   [0m[94mfor[0m module [95min[0m [96mself[0m.children():                                    [31m [0m
+[31m [0m [31m❱ [0m 903 [2m│   │   │   │   [0m[1;4mmodule._apply(fn)[0m                                             [31m [0m
+[31m [0m   [2m 904 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m   [2m 905 [0m[2m│   │   [0m[94mdef[0m[90m [0m[92mcompute_should_use_set_data[0m(tensor, tensor_applied):              [31m [0m
+[31m [0m   [2m 906 [0m[2m│   │   │   [0m[94mif[0m torch._has_compatible_shallow_copy_type(tensor, tensor_applied [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m903[0m in [92m_apply[0m     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 900 [0m[2m│   [0m[94mdef[0m[90m [0m[92m_apply[0m([96mself[0m, fn, recurse=[94mTrue[0m):                                       [31m [0m
+[31m [0m   [2m 901 [0m[2m│   │   [0m[94mif[0m recurse:                                                           [31m [0m
+[31m [0m   [2m 902 [0m[2m│   │   │   [0m[94mfor[0m module [95min[0m [96mself[0m.children():                                    [31m [0m
+[31m [0m [31m❱ [0m 903 [2m│   │   │   │   [0m[1;4mmodule._apply(fn)[0m                                             [31m [0m
+[31m [0m   [2m 904 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m   [2m 905 [0m[2m│   │   [0m[94mdef[0m[90m [0m[92mcompute_should_use_set_data[0m(tensor, tensor_applied):              [31m [0m
+[31m [0m   [2m 906 [0m[2m│   │   │   [0m[94mif[0m torch._has_compatible_shallow_copy_type(tensor, tensor_applied [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m903[0m in [92m_apply[0m     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 900 [0m[2m│   [0m[94mdef[0m[90m [0m[92m_apply[0m([96mself[0m, fn, recurse=[94mTrue[0m):                                       [31m [0m
+[31m [0m   [2m 901 [0m[2m│   │   [0m[94mif[0m recurse:                                                           [31m [0m
+[31m [0m   [2m 902 [0m[2m│   │   │   [0m[94mfor[0m module [95min[0m [96mself[0m.children():                                    [31m [0m
+[31m [0m [31m❱ [0m 903 [2m│   │   │   │   [0m[1;4mmodule._apply(fn)[0m                                             [31m [0m
+[31m [0m   [2m 904 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m   [2m 905 [0m[2m│   │   [0m[94mdef[0m[90m [0m[92mcompute_should_use_set_data[0m(tensor, tensor_applied):              [31m [0m
+[31m [0m   [2m 906 [0m[2m│   │   │   [0m[94mif[0m torch._has_compatible_shallow_copy_type(tensor, tensor_applied [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m903[0m in [92m_apply[0m     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 900 [0m[2m│   [0m[94mdef[0m[90m [0m[92m_apply[0m([96mself[0m, fn, recurse=[94mTrue[0m):                                       [31m [0m
+[31m [0m   [2m 901 [0m[2m│   │   [0m[94mif[0m recurse:                                                           [31m [0m
+[31m [0m   [2m 902 [0m[2m│   │   │   [0m[94mfor[0m module [95min[0m [96mself[0m.children():                                    [31m [0m
+[31m [0m [31m❱ [0m 903 [2m│   │   │   │   [0m[1;4mmodule._apply(fn)[0m                                             [31m [0m
+[31m [0m   [2m 904 [0m[2m│   │   [0m                                                                      [31m [0m
+[31m [0m   [2m 905 [0m[2m│   │   [0m[94mdef[0m[90m [0m[92mcompute_should_use_set_data[0m(tensor, tensor_applied):              [31m [0m
+[31m [0m   [2m 906 [0m[2m│   │   │   [0m[94mif[0m torch._has_compatible_shallow_copy_type(tensor, tensor_applied [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m930[0m in [92m_apply[0m     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 927 [0m[2m│   │   │   [0m[2m# track autograd history of `param_applied`, so we have to use[0m    [31m [0m
+[31m [0m   [2m 928 [0m[2m│   │   │   [0m[2m# `with torch.no_grad():`[0m                                         [31m [0m
+[31m [0m   [2m 929 [0m[2m│   │   │   [0m[94mwith[0m torch.no_grad():                                             [31m [0m
+[31m [0m [31m❱ [0m 930 [2m│   │   │   │   [0mparam_applied = [1;4mfn(param)[0m                                     [31m [0m
+[31m [0m   [2m 931 [0m[2m│   │   │   [0mp_should_use_set_data = compute_should_use_set_data(param, param_ [31m [0m
+[31m [0m   [2m 932 [0m[2m│   │   │   [0m                                                                  [31m [0m
+[31m [0m   [2m 933 [0m[2m│   │   │   [0m[2m# subclasses may have multiple child tensors so we need to use sw[0m [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/site-packages/torch/nn/modules/[0m[1;33mmodule.py[0m:[94m1336[0m in [92mconvert[0m   [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1333 [0m[2m│   │   │   │   [0m)                                                             [31m [0m
+[31m [0m   [2m1334 [0m[2m│   │   │   [0m[94mexcept[0m [96mNotImplementedError[0m [94mas[0m e:                                  [31m [0m
+[31m [0m   [2m1335 [0m[2m│   │   │   │   [0m[94mif[0m [96mstr[0m(e) == [33m"[0m[33mCannot copy out of meta tensor; no data![0m[33m"[0m:      [31m [0m
+[31m [0m [31m❱ [0m1336 [2m│   │   │   │   │   [0m[1;4;94mraise[0m[1;4m [0m[1;4;96mNotImplementedError[0m[1;4m([0m                                [31m [0m
+[31m [0m   [2m1337 [0m[1;2;4m│   │   │   │   │   │   [0m[1;4;33mf[0m[1;4;33m"[0m[1;4;33m{[0m[1;4me[0m[1;4;33m}[0m[1;4;33m Please use torch.nn.Module.to_empty() instead o[0m [31m [0m
+[31m [0m   [2m1338 [0m[1;2;4m│   │   │   │   │   │   [0m[1;4;33mf[0m[1;4;33m"[0m[1;4;33mwhen moving module from meta to a different device.[0m [31m [0m
+[31m [0m   [2m1339 [0m[1;2;4m│   │   │   │   │   [0m[1;4m) [0m[1;4;94mfrom[0m[1;4;90m [0m[1;4;94mNone[0m                                               [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mNotImplementedError: [0mCannot copy out of meta tensor; no data! Please use 
+[1;35mtorch.nn.Module.to_empty[0m[1m([0m[1m)[0m instead of [1;35mtorch.nn.Module.to[0m[1m([0m[1m)[0m when moving module from meta 
+to a different device.
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+  Stopping...

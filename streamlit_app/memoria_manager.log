@@ -1,0 +1,12 @@
+2025-04-16 13:21:44,362 - INFO - Use pytorch device_name: cpu
+2025-04-16 13:21:44,362 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 17:33:21,024 - INFO - Use pytorch device_name: cpu
+2025-04-16 17:33:21,024 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 17:33:21,027 - INFO - Use pytorch device_name: cpu
+2025-04-16 17:33:21,028 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 17:40:21,706 - INFO - Use pytorch device_name: cpu
+2025-04-16 17:40:21,708 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 14:45:52,164 - INFO - Use pytorch device_name: cpu
+2025-04-16 14:45:52,164 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-16 18:02:52,802 - INFO - Use pytorch device_name: cpu
+2025-04-16 18:02:52,802 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2

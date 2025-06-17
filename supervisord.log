@@ -1,0 +1,149 @@
+2025-04-11 11:51:31,417 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 11:51:31,429 INFO supervisord started with pid 1
+2025-04-11 11:51:32,437 INFO spawned: 'flask_api' with pid 7
+2025-04-11 11:51:32,444 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 11:51:32,452 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 11:51:33,454 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 11:51:33,454 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 11:51:33,455 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 12:20:39,832 WARN received SIGTERM indicating exit request
+2025-04-11 12:20:39,833 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-11 12:20:58,678 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 12:20:58,684 INFO supervisord started with pid 1
+2025-04-11 12:20:59,690 INFO spawned: 'flask_api' with pid 7
+2025-04-11 12:20:59,695 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 12:20:59,700 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 12:21:00,702 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 12:21:00,702 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 12:21:00,703 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:01:14,103 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 13:01:14,110 INFO supervisord started with pid 1
+2025-04-11 13:01:15,118 INFO spawned: 'flask_api' with pid 7
+2025-04-11 13:01:15,123 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 13:01:15,127 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 13:01:16,129 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:01:16,129 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:01:16,130 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:05:58,218 WARN received SIGTERM indicating exit request
+2025-04-11 13:05:58,219 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-11 13:05:58,387 INFO stopped: streamlit_webapp (exit status 0)
+2025-04-11 13:05:58,466 INFO stopped: streamlit_memoria_manager (exit status 0)
+2025-04-11 13:05:58,499 WARN stopped: flask_api (terminated by SIGTERM)
+2025-04-11 13:06:00,284 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 13:06:00,289 INFO supervisord started with pid 1
+2025-04-11 13:06:01,296 INFO spawned: 'flask_api' with pid 7
+2025-04-11 13:06:01,302 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 13:06:01,307 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 13:06:03,022 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:06:03,023 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:06:03,023 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:07:05,937 WARN received SIGTERM indicating exit request
+2025-04-11 13:07:05,938 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-11 13:07:06,148 INFO stopped: streamlit_webapp (exit status 0)
+2025-04-11 13:07:06,256 INFO stopped: streamlit_memoria_manager (exit status 0)
+2025-04-11 13:07:07,298 WARN stopped: flask_api (terminated by SIGTERM)
+2025-04-11 13:07:10,648 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 13:07:10,654 INFO supervisord started with pid 1
+2025-04-11 13:07:14,075 INFO spawned: 'flask_api' with pid 7
+2025-04-11 13:07:14,081 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 13:07:14,086 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 13:07:15,916 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:07:15,917 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:07:15,917 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:50:24,947 WARN received SIGTERM indicating exit request
+2025-04-11 13:50:24,951 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-11 13:50:45,618 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 13:50:45,626 INFO supervisord started with pid 1
+2025-04-11 13:50:46,631 INFO spawned: 'flask_api' with pid 7
+2025-04-11 13:50:46,637 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 13:50:46,643 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 13:50:47,645 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:50:47,645 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 13:50:47,646 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:04:11,962 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 14:04:11,969 INFO supervisord started with pid 1
+2025-04-11 14:04:12,976 INFO spawned: 'flask_api' with pid 7
+2025-04-11 14:04:12,980 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-11 14:04:12,985 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-11 14:04:14,801 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:04:14,802 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:04:14,802 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 15:45:44,091 WARN received SIGTERM indicating exit request
+2025-04-11 15:45:44,096 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-11 15:45:45,408 INFO stopped: streamlit_webapp (exit status 0)
+2025-04-11 15:45:45,726 INFO stopped: streamlit_memoria_manager (exit status 0)
+2025-04-11 15:45:46,758 WARN stopped: flask_api (terminated by SIGTERM)
+2025-04-16 13:10:53,823 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 13:10:53,836 INFO supervisord started with pid 1
+2025-04-16 13:10:54,848 INFO spawned: 'flask_api' with pid 7
+2025-04-16 13:10:54,855 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 13:10:54,863 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 13:10:55,866 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:10:55,868 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:10:55,868 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:23:21,427 WARN received SIGTERM indicating exit request
+2025-04-16 13:23:21,428 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-16 13:23:23,238 INFO stopped: streamlit_webapp (exit status 0)
+2025-04-16 13:23:24,367 INFO stopped: streamlit_memoria_manager (exit status 0)
+2025-04-16 13:23:24,399 WARN stopped: flask_api (terminated by SIGTERM)
+2025-04-16 13:27:56,756 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 13:27:56,767 INFO supervisord started with pid 1
+2025-04-16 13:27:57,780 INFO spawned: 'flask_api' with pid 7
+2025-04-16 13:27:57,786 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 13:27:57,793 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 13:27:58,796 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:27:58,797 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:27:58,797 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:41:17,526 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 13:41:17,535 INFO supervisord started with pid 1
+2025-04-16 13:41:18,541 INFO spawned: 'flask_api' with pid 7
+2025-04-16 13:41:18,548 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 13:41:18,555 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 13:41:19,557 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:41:19,558 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 13:41:19,558 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:37:08,621 WARN received SIGTERM indicating exit request
+2025-04-16 17:37:08,626 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-16 17:37:22,371 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 17:37:22,381 INFO supervisord started with pid 1
+2025-04-16 17:37:23,389 INFO spawned: 'flask_api' with pid 7
+2025-04-16 17:37:23,396 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 17:37:23,408 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 17:37:24,412 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:37:24,413 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:37:24,413 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:47:27,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 17:47:27,357 INFO supervisord started with pid 1
+2025-04-16 17:47:28,366 INFO spawned: 'flask_api' with pid 7
+2025-04-16 17:47:28,371 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 17:47:28,378 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 17:47:30,339 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:47:30,339 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:47:30,340 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:59:06,304 WARN received SIGTERM indicating exit request
+2025-04-16 17:59:06,306 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-16 17:59:08,763 INFO stopped: streamlit_webapp (exit status 0)
+2025-04-16 17:59:09,156 INFO stopped: streamlit_memoria_manager (exit status 0)
+2025-04-16 17:59:10,198 WARN stopped: flask_api (terminated by SIGTERM)
+2025-04-16 17:59:12,802 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 17:59:12,815 INFO supervisord started with pid 1
+2025-04-16 17:59:13,847 INFO spawned: 'flask_api' with pid 7
+2025-04-16 17:59:13,856 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 17:59:13,862 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 17:59:14,865 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:59:14,866 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:59:14,869 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:59:48,919 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-16 17:59:48,924 INFO supervisord started with pid 1
+2025-04-16 17:59:49,933 INFO spawned: 'flask_api' with pid 7
+2025-04-16 17:59:49,940 INFO spawned: 'streamlit_memoria_manager' with pid 8
+2025-04-16 17:59:49,948 INFO spawned: 'streamlit_webapp' with pid 9
+2025-04-16 17:59:51,892 INFO success: flask_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:59:51,893 INFO success: streamlit_memoria_manager entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 17:59:51,893 INFO success: streamlit_webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-16 18:57:33,051 WARN received SIGTERM indicating exit request
+2025-04-16 18:57:33,052 INFO waiting for flask_api, streamlit_memoria_manager, streamlit_webapp to die
+2025-04-16 18:57:35,004 INFO stopped: streamlit_webapp (exit status 0)
+2025-04-16 18:57:36,054 INFO stopped: streamlit_memoria_manager (exit status 0)
+2025-04-16 18:57:36,056 INFO waiting for flask_api to die
+2025-04-16 18:57:36,079 WARN stopped: flask_api (terminated by SIGTERM)

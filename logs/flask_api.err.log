@@ -1,0 +1,417 @@
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+Press CTRL+C to quit
+172.19.0.2 - - [11/Apr/2025 13:10:42] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:30:00] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:30:16] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:32:58] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:34:38] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+Press CTRL+C to quit
+172.19.0.2 - - [11/Apr/2025 13:53:41] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:54:00] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:56:14] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:56:15] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:56:16] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 13:56:16] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+[2025-04-11 13:57:08,147] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 13:57:08] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 13:57:15,654] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 13:57:15] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 13:57:24,182] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 13:57:24] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 13:57:40,568] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 13:57:40] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 13:58:22,950] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 13:58:22] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+172.19.0.2 - - [11/Apr/2025 13:59:08] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+[2025-04-11 13:59:40,717] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 13:59:40] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+172.19.0.2 - - [11/Apr/2025 14:01:33] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+[2025-04-11 14:02:08,790] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:08] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:02:40,774] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:40] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:02:40,803] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:40] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+172.19.0.2 - - [11/Apr/2025 14:02:41] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+[2025-04-11 14:02:48,547] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:48] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:02:48,705] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:48] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:02:56,561] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:56] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:02:57,948] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:02:57] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:03:14,232] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:03:14] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:03:16,639] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:03:16] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:03:55,152] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:03:55] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+[2025-04-11 14:04:00,439] ERROR in app: Exception on /chatbot/webhook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/api.py", line 18, in webhook
+    message_body = data['payload']['_data']['body']
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'body'
+172.19.0.2 - - [11/Apr/2025 14:04:00] "POST /chatbot/webhook/ HTTP/1.1" 500 -
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+Press CTRL+C to quit
+172.19.0.2 - - [11/Apr/2025 14:11:09] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 14:12:13] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 14:12:30] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 14:13:03] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 14:24:01] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 14:36:17] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+172.19.0.2 - - [11/Apr/2025 15:35:28] "POST /chatbot/webhook/ HTTP/1.1" 200 -
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+Press CTRL+C to quit
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+Press CTRL+C to quit
