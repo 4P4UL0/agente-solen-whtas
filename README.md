@@ -111,4 +111,4 @@ Usar serviços de monitoramento/logs externos.
 👨‍💻 Desenvolvido e alimentado por
 Antônio Oliveira | Toni
 [antoniospaul6@gmail.com]
-[Linkedin - https://www.linkedin.com/feed/]
+[[meu linkedin](https://www.linkedin.com/in/a-paulo/)]
