@@ -48,6 +48,6 @@ class Waha:
 
     def seg(self, chat_id):
         autorizados = {
-            "5521982390569@c.us"
+            "5521971001386@c.us"
         }
         return "aut" if chat_id in autorizados else "not"
